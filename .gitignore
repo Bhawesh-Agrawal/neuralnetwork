@@ -1,7 +1,12 @@
-# Ignore Python virtual environment
-django/
-**/__pycache__/
-**/*.pyc
+# Ignore only virtual environment files inside django/
+django/*
+!django/src/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Ignore Django environment files
 django/src/.env
