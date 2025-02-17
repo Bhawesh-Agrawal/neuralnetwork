@@ -1,0 +1,19 @@
+# Ignore Python virtual environment
+django/
+**/__pycache__/
+**/*.pyc
+
+# Ignore Django environment files
+django/src/.env
+django/src/db.sqlite3
+django/src/media/
+
+# Ignore Next.js dependencies
+nextjs-app/node_modules/
+nextjs-app/.next/
+nextjs-app/out/
+nextjs-app/.env.local
+
+# Ignore system files
+.DS_Store
+Thumbs.db
