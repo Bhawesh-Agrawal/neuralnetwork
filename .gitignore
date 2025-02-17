@@ -1,6 +1,7 @@
 # Ignore only virtual environment files inside django/
 django/*
 !django/src/
+!django/myapi/
 
 # Ignore Python cache files
 __pycache__/
