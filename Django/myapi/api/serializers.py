@@ -14,3 +14,4 @@ class LinearRegressionSerializer(serializers.Serializer):
     epochs = serializers.IntegerField(default=10)
     validation_split = serializers.FloatField(default=0.2)
     batch_size = serializers.IntegerField(default=32)
+    sample_number = serializers.IntegerField(default=0)
